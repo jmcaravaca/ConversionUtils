@@ -1,0 +1,31 @@
+{
+  "DisplayName": "Dict To JSON String",
+  "Tooltip": "Converts a Dictionary to a JSON String (Serialize)",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_Dict",
+      "DisplayName": "Dictionary",
+      "Category": "Input",
+      "Tooltip": "Dictionary to be converted",
+      "Placeholder": null,
+      "Widget": "Dictionary",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_strJSON",
+      "DisplayName": "JSON String",
+      "Category": "Output",
+      "Tooltip": "Output JSON String",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

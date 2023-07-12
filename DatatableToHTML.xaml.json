@@ -1,0 +1,31 @@
+{
+  "DisplayName": "DatatableToHTML",
+  "Tooltip": "Converts a datatable into an HTML String to insert in a mail. ",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_dt_dtToConvert",
+      "DisplayName": "Datatable to Convert",
+      "Category": "Input",
+      "Tooltip": "Datatable that will be converted.",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_str_HtmlTable",
+      "DisplayName": "HTML Table",
+      "Category": "Output",
+      "Tooltip": "String with the HTML Table",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}
