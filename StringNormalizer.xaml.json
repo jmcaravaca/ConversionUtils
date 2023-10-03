@@ -1,0 +1,64 @@
+{
+  "DisplayName": "StringNormalizer",
+  "Tooltip": "Normalize string for easy comparison. Removes diacritics, trims whitespace, case.",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_Str",
+      "DisplayName": "Input",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_Str",
+      "DisplayName": "Output",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "removeDiacritics",
+      "DisplayName": "Remove Diacritics",
+      "Category": null,
+      "Tooltip": "Remove diacritics (à é ô)",
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "removeCase",
+      "DisplayName": "Remove Case",
+      "Category": null,
+      "Tooltip": "Turns string into all lowercase",
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "trimWhitespace",
+      "DisplayName": "Trim Whitespace",
+      "Category": null,
+      "Tooltip": "Remove whitespace at beginning and end of string",
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}
